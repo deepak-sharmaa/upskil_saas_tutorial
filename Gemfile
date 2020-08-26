@@ -38,6 +38,9 @@ end
 #Use Twitter Bootstrap library
 gem 'bootstrap-sass', '3.3.7'
 
+#use hirb for better database display
+gem 'hirb', '0.7.3'
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
