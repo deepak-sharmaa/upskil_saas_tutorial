@@ -46,7 +46,9 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '2.0.0'
 end
-
+ 
+ #use Font awesome sass gem for adding icons
+ gem 'font-awesome-sass', '4.6.2'
 group :production do
   #use the PostgreSQL gem for Heroku production servers
   gem 'pg', '0.18.4'

@@ -15,6 +15,8 @@
  */
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
+ @import "font-awesome-sprockets";
+@import "font-awesome";
  h1,h2,h3 { 
      font-family: 'roboto', sans-serif;
      }
@@ -43,3 +45,17 @@
     opacity: 0.75;
      }
    }
+   .navbar-brand{
+       font-family: 'roboto', sans-serif;
+       font-weight : 800;
+   }
+    
+    .navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color:  #00c6ff ;
+  }
+}
