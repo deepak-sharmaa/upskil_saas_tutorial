@@ -35,20 +35,11 @@
     padding-bottom : 100px;
     
 }
-.navbar-default .navbar-brand {
-    margin-left: -15px;
-    color: white;
-}
-
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav >li >a {
-    color :white;
-}
-.navbar-default .navbar-brand:hover {
+    color: white;
+    &:hover{
     color: white;
     opacity: 0.75;
-    
-}
-.navbar-default .navbar-nav >li >a:hover{
-    color :white;
-    opacity: 0.75;
-}
+     }
+   }
